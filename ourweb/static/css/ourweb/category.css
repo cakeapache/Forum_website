@@ -1,0 +1,67 @@
+table#tb{
+    width:50%;
+    margin: 5px auto 15px auto;
+}
+.category-borad{
+    background: #aaa;
+}
+.controll-panel{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.controll-panel>a{
+    background:rgba(115, 195, 210,0.6);
+    padding:5px;
+    border: 2px dotted black;
+    color:black;
+    margin: 5px;
+}
+
+/*createCat css*/
+.area{
+    width:100%;
+    height:300px;
+}
+a.info{
+    margin:0px 5px;
+    border-radius: 10px;
+    padding:1px 10px;
+}
+h3.content-preview{
+    font-size:14px;
+    margin:10px;
+    padding:5px;
+}
+h3.member{
+    text-align:left; 
+    font-size:12px;
+}
+h3.editer{
+    text-align:center; 
+    border-top:1px solid #aaa; 
+    font-size:8px;
+    margin:0;
+    padding:3px;
+}
+a.editer-bt{
+    background:skyblue; 
+    color:black; 
+    padding:1px 5px;
+    border-radius:10px;
+    margin:0px 3px;
+    font-size:10px;
+}
+h3.Mainsub{
+    width:100%;
+    border-bottom:1px dotted black; 
+    text-align:center;
+}
+tr.TBboard{
+    background:white; 
+    border:5px solid #aaa;
+}
+button.TopBT{
+    cursor: pointer;
+    width:100%; 
+    background:rgba(0,0,0,0); 
+}

@@ -1,0 +1,107 @@
+form.login{
+    position: fixed;
+    border:1px solid #aaa;
+    background-color: rgba(115, 195, 210,0.6);
+    border-radius:4px;
+    color:white;
+    right:0px;
+    top:65px;
+    text-align: center;
+    border:1px solid #aaa;
+}
+/*login form*/
+form.info{
+    display: inline-block;
+    margin:10px 0px;
+}
+form.info>input[type='submit']{
+    margin:0px auto;
+    width: 150px;
+}
+
+form.setting{
+    position: absolute;
+    top:15px;
+    font-size:18px;
+    color:black;
+    right:15px;
+    display: inline;
+}
+/*register form*/
+form.register{
+    text-align: center;
+    width:265px;
+    margin-left:auto;
+    margin-right: auto;
+}
+form.register>input{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius: 4px;
+}
+
+/*form submit button config*/
+.submit{
+    margin:15px;
+    margin-top:5px;
+    margin-bottom: 10px;
+    background: rgba(100, 180, 200, 0.9);
+    width:200px;
+    height: 30px;
+    border-radius: 4px;
+    border:2px solid #aaa;
+}
+
+
+
+
+
+
+/*icon config*/
+input:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+form>.inputWithIcon input{
+    padding:8px;
+    padding-left:40px;
+    margin: 8px 0;
+    margin-left: 10px;
+    outline: none;
+    box-sizing: border-box;
+    transform: 3s;
+    width: 250px;
+    line-height: 15px;
+    border-radius: 4px;
+    border:2px solid #aaa;
+}
+.inputWithIcon{
+    position: relative;
+}
+.inputWithIcon i{
+    position: absolute;
+    left:12px;
+    top:12px;
+    padding: 7px 8px;
+    color: #aaa;
+}
+.inputWithIcon input:focus+i{
+    color:dodgerblue;
+}
+
+.inputWithIcon.invalid input+i{
+    color:red;
+}
+form>.inputWithIcon.invalid input{
+    box-shadow:0 0 8px 0 red;
+}
+form>.inputWithIcon.valid input{
+    box-shadow:0 0 8px 0 greenyellow;
+}
+form>.inputWithIcon.valid i{
+    color:greenyellow;
+}
+#rem{
+    color:brown;
+    font-weight: bold;
+}

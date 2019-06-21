@@ -1,0 +1,31 @@
+6/5<br>
+&nbspindex.css->all .php file included.<br>
+&nbspform.css->all form element included.<br>
+&nbspanimate.css->all file included.<br>
+&nbspcategory.css->category.php included.<br><br>
+
+6/9<br>
+&nbspcategory picture added.<br>
+&nbsptopic.php->topic.css included.<br>
+&nbspcreate category->category.css included.<br><br>
+
+6/10<br>
+&nbspadd setting board.<br>
+&nbspfix login invalid message.<br>
+&nbspupdate category,topics,posts user information.<br>
+&nbsp->perpare to fix board layout,remake posts board.<br><br>
+
+6/11<br>
+&nbspfix createCat,creatTop<br>
+&nbspadd delete and update functions<br><br>
+
+6/12<br>
+&nbspfix topics layout,page system<br>
+&nbspYou can upload multiple image now<br>
+&nbspYou can compile java online now:D<br>
+&nbspCategory page system need fix.<br><br>
+
+6/13<br>
+&nbspRemake board layout<br>
+&nbspYou can compile web online now:D<br>
+&nbspfix category page system<br>
