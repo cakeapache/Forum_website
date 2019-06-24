@@ -1,7 +1,15 @@
 body,html{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
-    height: 3000px;
+    background:url(../img/html-bk.png) #e3f3fc;
+}
+footer{
+  position: absolute;
+  background: rgba(170,170,170,0.2);
+  text-align: center;
+  left:0;
+  right:0;
+  margin-top:15px;
 }
 /*h3 content test*/
 h3{
@@ -12,7 +20,8 @@ h3{
 /*text area*/
 /*Cake main content*/
 div.CakeMainBoard {
-    background: rgba(0,0,139,0.8);
+    background:url(../img/main-bk.png) rgba(0,0,139,0.8);
+    text-shadow: 1px 2px black;
 }
 div.AboutBoard {
     background: rgba(100,149,237,0.8);
@@ -25,7 +34,7 @@ div.ForumBoard {
 div.CakeMainBoard>div.Profile{
     background:rgba(0,0,139,0.8);
     color:white;
-    padding:0% 13%;
+    padding:0% 10%;
 }
 div.CakeMainBoard>h3{
     color:white;
@@ -41,10 +50,10 @@ div.Profile>div.item{
     padding-top: 5px;
     border-radius: 4px;
     cursor: pointer;
-    box-shadow: 4px 4px 4px rgb(0, 0, 80);
+    box-shadow: 4px 4px 3px rgb(0, 0, 80);
 }
 div.Profile>div.item:hover{
-  box-shadow: 4px 2px 4px rgb(110, 110, 255);
+  box-shadow:4px 4px 3px rgba(146, 146, 255, 0.5);
 }
 /*Profile content end*/
 
