@@ -1,0 +1,96 @@
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    height: 3000px;
+}
+/*h3 content test*/
+h3{
+    padding:5px 5px;
+    text-align: center;
+}
+
+/*text area*/
+/*Cake main content*/
+div.CakeMainBoard {
+    background: rgba(0,0,139,0.8);
+}
+div.AboutBoard {
+    background: rgba(100,149,237,0.8);
+}
+div.ForumBoard {
+    background: rgba(131, 205, 255, 0.8);
+}
+
+/*CakeContent elements*/
+div.CakeMainBoard>div.Profile{
+    background:rgba(0,0,139,0.8);
+    color:white;
+    padding:0% 13%;
+}
+div.CakeMainBoard>h3{
+    color:white;
+}
+/*Profile content*/
+div.Profile>div.item{
+    width: 210px;
+    float: left;
+    background:#aaa;
+    text-align: center;
+    margin:10px;
+    padding:0px 5px;
+    padding-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgb(0, 0, 80);
+}
+div.Profile>div.item:hover{
+  box-shadow: 4px 2px 4px rgb(110, 110, 255);
+}
+/*Profile content end*/
+
+/*container and broad element*/
+div.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-top:3.66em;
+  }
+  
+  div.CakeMainBoard, .AboutBoard, .ForumBoard {
+    width: 100%;
+  }
+/*container and broad element end*/
+
+/*In different device view*/
+  @media (min-width: 600px) {
+    div.CakeMainBoard {
+      width: 60%;
+      -webkit-order: 2;
+      order: 2;
+    }
+  
+    div.AboutBoard {
+      width: 40%;
+      -webkit-order: 1;
+      order: 1;
+    }
+  
+    div.ForumBoard {
+      width: 100%;
+      -webkit-order: 3;
+      order: 3;
+    }
+  }
+  
+  
+  @media (min-width: 800px) {
+    div.AboutBoard {
+      width: 20%;
+    }
+  
+    div.ForumBoard {
+      width: 20%;
+    }
+  }
+  /*In different device view end */
