@@ -6,7 +6,6 @@ body,html{
 footer{
   position: absolute;
   background: rgba(170,170,170,0.2);
-  text-align: center;
   left:0;
   right:0;
   margin-top:15px;
@@ -16,12 +15,19 @@ h3{
     padding:5px 5px;
     text-align: center;
 }
-
+h4{
+  text-align: center;
+  color:whitesmoke;
+}
+h5{
+  text-align: center;
+  
+}
 /*text area*/
 /*Cake main content*/
 div.CakeMainBoard {
+    text-align: center;
     background:url(../img/main-bk.png) rgba(0,0,139,0.8);
-    text-shadow: 1px 2px black;
 }
 div.AboutBoard {
     background:url(../img/main-bk.png) rgba(100,149,237,0.8);
@@ -32,28 +38,66 @@ div.ForumBoard {
 
 /*CakeContent elements*/
 div.CakeMainBoard>div.Profile{
-    background:rgba(0,0,139,0.8);
+    background:rgba(0,0,139,0.6);
     color:white;
     padding:0% 10%;
 }
 div.CakeMainBoard>h3{
     color:white;
+    text-shadow: 1px 2px black;
 }
 /*Profile content*/
 div.Profile>div.item{
-    width: 210px;
+    width: 212px;
     float: left;
-    background:#aaa;
     text-align: center;
     margin:10px;
-    padding:0px 5px;
-    padding-top: 5px;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 4px 4px 3px rgb(0, 0, 80);
 }
-div.Profile>div.item:hover{
-  box-shadow: 0px 0px 35px white;
+div.Profile>div.item>a>img.item-img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 1px 1px 3px black;
+}
+.p-wrapper{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color:#ffffff;
+  overflow: hidden;
+  z-index: 10;
+}
+.p-animate-go:hover .p-from-left{
+  left: 0;
+}
+.p-animate-go:hover .p-animate{
+  visibility: visible;
+}
+.p-from-left{
+  position: relative;
+  background: rgba(0,0,0,0.6);
+  background-size: 100% 100%;
+  top: 0px;
+  left:-100%;
+  margin: 0;
+  min-height: 241px;
+  cursor: pointer;
+}
+.p-animate{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  visibility: hidden;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+.p-animate span{
+  display: block;
+  font-size: 2em;
+  padding-top:15px;
+  font-weight: 500;
 }
 /*Profile content end*/
 

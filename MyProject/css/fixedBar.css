@@ -10,6 +10,10 @@ header.barHeader{
     z-index: 100;
 }
 /*main visual area*/
+img.logo{
+    max-width: 50%;
+    max-height: 100px;
+  }
 .FixedBar{
     display: block;
     border-bottom: 1px solid #aaa;
@@ -23,7 +27,7 @@ header.barHeader{
     height: 100%;
     font-weight: bold;
     float: left;
-    padding:15px 10px 12px;
+    padding:10px 10px 12px;
     color:black;
     text-decoration: none;
 }
