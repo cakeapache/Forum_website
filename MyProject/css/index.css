@@ -24,10 +24,10 @@ div.CakeMainBoard {
     text-shadow: 1px 2px black;
 }
 div.AboutBoard {
-    background: rgba(100,149,237,0.8);
+    background:url(../img/main-bk.png) rgba(100,149,237,0.8);
 }
 div.ForumBoard {
-    background: rgba(131, 205, 255, 0.8);
+    background:url(../img/main-bk.png) rgba(131, 205, 255, 0.8);
 }
 
 /*CakeContent elements*/
@@ -53,7 +53,7 @@ div.Profile>div.item{
     box-shadow: 4px 4px 3px rgb(0, 0, 80);
 }
 div.Profile>div.item:hover{
-  box-shadow:4px 4px 3px rgba(146, 146, 255, 0.5);
+  box-shadow: 0px 0px 35px white;
 }
 /*Profile content end*/
 

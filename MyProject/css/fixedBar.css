@@ -1,0 +1,29 @@
+header.barHeader{
+    align-items: center;
+    position: fixed;
+    display: flex;
+    height: 3.66em;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 100;
+}
+/*main visual area*/
+.FixedBar{
+    display: block;
+    border-bottom: 1px solid #aaa;
+    width:100%;
+    height: 100%;
+    background: rgba(220,220,220,0.8);
+}
+.FixedBar>a{
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    font-weight: bold;
+    float: left;
+    padding:15px 10px 12px;
+    color:black;
+    text-decoration: none;
+}

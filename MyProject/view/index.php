@@ -1,6 +1,6 @@
 <?php
     require('../defaultHeader.php');
-    require('FixedBar.php');
+    require('fixedBar.php');
 ?>
 
 
