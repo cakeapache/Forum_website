@@ -1,6 +1,6 @@
-.jpg
-.png
-.gif
-.JPG
-.PNG
-.jpeg
+*.jpg
+*.png
+*.gif
+*.JPG
+*.PNG
+*.jpeg
